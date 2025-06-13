@@ -11,4 +11,5 @@ D:/ML_Project/server/python server.py
 after html file run in the Web Browser 
 
 
-![image alt](https://github.com/jenish128/Predicting-Rent-Price-Using-ML/blob/2e2fe2f46ff4d4279cb5288a61732d9da0d6c09c/Screenshot%202025-06-13%20183504.png![image](https://github.com/user-attachments/assets/7c14c045-44db-45db-a6fa-10cea92b5e80)
+![image](https://github.com/jenish128/Predicting-Rent-Price-Using-ML/blob/2e2fe2f46ff4d4279cb5288a61732d9da0d6c09c/Screenshot%202025-06-13%20183504.png![image](https://github.com/user-attachments/assets/4542a77e-ce5f-471b-9172-20f9abec5d35)
+)
