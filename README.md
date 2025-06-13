@@ -10,6 +10,5 @@ D:/ML_Project/server/python server.py
 
 after html file run in the Web Browser 
 
-
- Uploading "Screenshot 2025-06-13 183722.png"... 
+![Image](https://github.com/user-attachments/assets/1ee26fc1-4cb6-4708-bac4-63f1de7f74f6)
 
