@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  text-align: center;
+  font-size: 28px;
+  color: #ff6f61; /* vibrant coral */
+  margin-bottom: 30px;
+  background-color: #133a44; /* dark teal background */
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #ff6f61;
+  transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+h3:hover {
+  background-color: #ff8a75; /* lighter coral */
+  color: #fff5f3;
+  transform: scale(1.05);
+}
+
+
+body {
+  background-color: #121212; /* dark charcoal */
+  color: #e8f0f2; /* soft off-white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px;
+}
+
+/* Form Container */
+.form {
+  background-color: #0e3b44; /* deep teal */
+  padding: 40px;
+  border-radius: 16px;
+  max-width: 700px;
+  width: 100%;
+  box-shadow: 0 0 20px #57717a; /* muted gray shadow */
+  transition: box-shadow 0.3s ease;
+}
+
+.form:hover {
+  box-shadow: 0 0 50px #40c9c6; /* bright turquoise glow on hover */
+}
+
+.form h2 {
+  color: #ff6f61; /* vibrant coral */
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Input Fields */
+.area, .location {
+  width: 100%;
+  padding: 12px 16px;
+  font-size: 16px;
+  border: 2px solid #57717a; /* muted gray border */
+  background-color: #133a44; /* darker teal */
+  color: #e8f0f2; /* off-white text */
+  border-radius: 12px;
+  margin-bottom: 25px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.area:focus, .location:focus {
+  border-color: #40c9c6; /* bright turquoise */
+  box-shadow: 0 0 8px #40c9c6;
+  outline: none;
+}
+
+/* Radio Buttons group */
+.switch-field {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.switch-field input[type="radio"] {
+  display: none;
+}
+
+.switch-field label {
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: #133a44;
+  color: #a0c8cc; /* lighter muted turquoise */
+  border: 2px solid #57717a;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.switch-field input[type="radio"]:checked + label {
+  background-color: #ff6f61; /* vibrant coral */
+  border-color: #ff6f61;
+  color: #ffffff;
+}
+
+.switch-field label:hover {
+  background-color: #ff8a75; /* lighter coral */
+  color: #ffffff;
+  transform: scale(1.05);
+}
+
+/* Submit Button */
+button.submit {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #ff6f61; /* vibrant coral */
+  color: #e8f0f2;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px #d9554e;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+}
+
+button.submit:hover {
+  background-color: #ff8a75; /* lighter coral */
+  box-shadow: 0 6px 18px #ff7b6a;
+  transform: scale(1.05);
+}
+
+button.submit:active {
+  transform: scale(0.95);
+}
+
+/* Result Section */
+.result {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.result h2 {
+  display: inline-block;
+  font-size: 24px;
+  color: #ff6f61; /* coral */
+  background-color: #133a44; /* dark teal */
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ff6f61;
+  transition: transform 0.3s ease;
+}
+
+.result h2:hover {
+  transform: scale(1.05);
+  background-color: #ff8a75;
+  color: #fff5f3;
+}
