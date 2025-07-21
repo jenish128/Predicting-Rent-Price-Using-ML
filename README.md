@@ -66,7 +66,7 @@ after html file run in the Web Browser
 ![Image](https://github.com/user-attachments/assets/464f650a-922c-4e2c-9a86-5641a3f6047b)
 
 
-6st Image : 
+14st Image : 
 
 ![Image](https://github.com/user-attachments/assets/ba4f2309-c688-4f15-917e-c3486ce83325)
 
